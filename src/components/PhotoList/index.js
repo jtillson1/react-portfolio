@@ -7,32 +7,38 @@ const PhotoList = ({ category }) => {
     {
       name: 'Food Festival',
       category: 'Portfolio',
-      description: <a>https://jtillson1.github.io/food-festival</a>
+      github: 'https://github.com/jtillson1/food-festival',
+      deploy: 'https://jtillson1.github.io/food-festival'
     },
     {
       name: 'Note Taker',
       category: 'Portfolio',
-      description: <a>https://jtillson1.github.io/note-taker</a>
+      github:'https://jtillson1.github.io/note-taker',
+      deploy: 'https://vu-note-taker.herokuapp.com/'
     },
     {
       name: 'Run Buddy',
       category: 'Portfolio',
-      description: <a>https://jtillson1.github.io/run-buddy</a>
+      github: 'https://github.com/jtillson1/run-buddy',
+      deploy:'https://jtillson1.github.io/run-buddy'
     },
     {
       name: 'SpeakEasy',
       category: 'Portfolio',
-      description:  <a>https://github.com/adamkeyser45/thespeakeasy</a>
+      github:  'https://github.com/adamkeyser45/thespeakeasy',
+      deploy: 'https://fierce-forest-64673.herokuapp.com/'
     },
     {
       name: 'Taskinator',
       category: 'Portfolio',
-      description: <a>https://github.com/adamkeyser45/taskinator</a>
+      github: 'https://github.com/jtillson1/Taskinator',
+      deploy: 'https://jtillson1.github.io/Taskinator/'
     },
     {
       name: 'WeatherMan',
       category: 'Portfolio',
-      description: <a>https://github.com/jtillson1/weatherman</a>
+      github:'https://github.com/jtillson1/weatherman',
+      deploy:'https://jtillson1.github.io/weatherman/'
     },
   ]);
 

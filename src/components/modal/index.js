@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const Modal = ({ onClose, currentPhoto }) => {
     // destructure currentPhoto properties into constants to 
     // assign their values into the modal
-    const { name, category, description, index } = currentPhoto;
+    const { name, category, description, index, github, deploy } = currentPhoto;
     //set the initial state of isModalOpen to false, 
     // because we don't want the modal to open until a user has 
     // clicked on an image.
@@ -20,6 +20,8 @@ const Modal = ({ onClose, currentPhoto }) => {
                 <button onClick={onClose} type="button">
                     Close this modal
           </button>
+          <a href={github}><button className="linkBtn">Github Repo</button></a>    
+          <a href={deploy}><button className="linkBtn">View Live</button></a>    
             </div>
         </div>
     );
