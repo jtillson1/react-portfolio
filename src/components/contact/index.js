@@ -36,20 +36,13 @@ function ContactForm() {
         console.log(formState);
     }
     return (
-        <section>
+        <section className="contact">
             <h1>Contact Me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
+                <input type="text" id="formInput" placeholder="Name" name="name" defaultValue={name} onBlur={handleChange} />
+                <input type="email" placeholder="Email" id="formInput" name="email" defaultValue={email} onBlur={handleChange} />
                 <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+                    <textarea placeholder="What do you want to say..." name="message" id="formInput" defaultValue={message} onBlur={handleChange} rows="5" />
                 </div>
                 {errorMessage && (
                     <div>

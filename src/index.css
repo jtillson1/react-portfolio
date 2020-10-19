@@ -298,4 +298,30 @@ a {
 .navActive {
   color: var(--secondary);
 }
+.contact {
+  width: 100%;
+}
+#contact-form {
+  padding: 20px;
+  color: #000000;
+  background:#ffffff;
+  width: 100%;
+ margin-top: 30px;
+ box-shadow: #ffffff 0px 0px 10px;
 
+}
+
+#formInput {
+width: 100%;
+  color: white;
+  padding: 5px;
+ background: var(--primary);
+margin-top: 15px;
+border: none;
+font-size: 18px;
+font-weight: bold;
+
+}
+#formInput::placeholder {
+  color: black;
+}
