@@ -5,9 +5,9 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
+  --primary: #037a91;
+  --secondary: #7d7d7d;
+  --tertiary: #5c5c5c;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -36,7 +36,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -46,10 +46,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  color: var(--primary);
 }
 
 h1 {
@@ -85,16 +86,18 @@ a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+  
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--primary);
+ 
 }
 
 header {
-  background: var(--dark);
+  box-shadow: var(--primary) 0px -20px 50px;
+  
 }
-
 header a {
   color: var(--light);
 }
@@ -240,6 +243,8 @@ textarea {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
+  
+  
 }
 
 .modalBackdrop {
@@ -293,3 +298,4 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
